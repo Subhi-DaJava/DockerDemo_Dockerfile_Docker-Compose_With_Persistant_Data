@@ -3,10 +3,10 @@ server:
 
 spring:
   datasource:
-    #url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/docker_demo_db?createDatabaseIfNotExist=true&serverTimezone=UTC
-    url: jdbc:mysql://mysql-docker-demo-container:3306/docker_demo_db?createDatabaseIfNotExist=true&serverTimezone=UTC
-    username: ${rootUsername}
-    password: ${rootPassword}
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/docker_demo_db?createDatabaseIfNotExist=true&serverTimezone=UTC
+    #url: jdbc:mysql://mysql-docker-demo-container:3306/docker_demo_db?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: rootPassword
   # none: The default for MySQL. No change is made to the database structure.
   jpa:
     properties:
