@@ -17,6 +17,10 @@
 #### Exit form Database
 -  exit; -> Bye
 -   #bash-4.4# -> exit;
+#### Connect database with MySQL Workbench 
+- Create new MySQL Server Connection 
+- Set up new Server Connection, Refer to the example image below for guidance:
+![new_mysql_server_connection_image](https://github.com/Subhi-DaJava/DockerDemo_Dockerfile_Docker-Compose_With_Persistant_Data/assets/90509456/a2fd572c-b788-4de3-b775-f87ee1cf2fcc)
 
 #### Some Commands
 - docker-compose kill -> stop containers
