@@ -46,3 +46,6 @@ networks:
 # |  1 | subhi | subhi_80 |
 # +----+-------+----------+
 # exit; -> Bye #bash-4.4# -> exit;
+
+# docker-compose kill -> stop containers
+# docker-compose down  -> remove containers
